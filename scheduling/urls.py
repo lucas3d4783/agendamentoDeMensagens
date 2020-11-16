@@ -2,7 +2,7 @@ from rest_framework.routers import DefaultRouter
 from .views import SchedulingViewSet, SocialNetworkViewSet
 from . import views
 from django.urls import path, include
-
+from django.conf.urls import url
 
 r = DefaultRouter()
 r.register(r'', SchedulingViewSet)

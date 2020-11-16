@@ -22,5 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/schedulings/', include(schedulings_urls)),
     path('api/social_networks/', include(social_networks_urls)),
+
 ]
 
